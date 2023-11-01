@@ -1,0 +1,296 @@
+:root {
+--primary-color: #ed1008; 
+--second-color: #FFFFFF;
+--third-color: #252C2E;
+--fourth-color: #1B2021;
+--fifth-color: #F2EA00; 
+--text-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    width: 100vw;
+    height: 80%;
+    background-color: var(--third-color);
+}
+
+body > header {
+    width: 100vw;
+    height: 10%;
+    padding: 0.5rem;
+    background-color: var(--fourth-color);
+    display: flex;
+    align-items: center;
+}
+
+body > header > div {
+    width: 50%;
+}
+
+body > header > div > img {
+    width: 2.3rem;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+
+body > header > .ul-header {
+    width: 50%;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+body > header > .ul-header > li {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+body > header > .ul-header > li > a:hover { 
+    color: var(--fifth-color);
+    text-shadow: 0 0 0.2rem var(--fifth-color);
+}
+
+body > main {
+    margin-top: 3rem; 
+}
+
+body > main > #SS-DD {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > main > #SS-DD > .home1 {
+    font-size: 1.8rem;
+}
+
+body > main > #SS-DD > .home2 {
+    font-size: 1.25rem;
+    text-shadow: 0 0 0.625rem var(--fifth-color);
+}
+
+body > main > #home > .container-home {
+    width: 100%;
+    height: 33rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > main > #home > .container-home > .picture {
+    width: 20rem;
+    height: 30rem;
+    margin-bottom: 3rem;
+    margin-right: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > main > #home > .container-home > .picture > .border-picture {
+    width: 17.35rem;
+    height: 17.35rem;
+    background-color: var(--fifth-color);
+    border-radius: 50%;   
+}
+
+body > main > #home > .container-home > .picture > .border-picture > .img-picture {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+}
+
+body > main > #home > .container-home > .home-im-skills {
+    width: 32%;
+    height: 100%;
+    margin-left: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body > main > #home > .container-home > .home-im-skills > .im > .im-title {
+    font-size: 1.5rem;
+    text-shadow: 0 0 0.625rem var(--fifth-color);
+}
+
+body > main > #home > .container-home > .home-im-skills > .skills {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-bitcoin, .icon-filecode {
+    font-size: 1.4rem;
+    color: var(--fifth-color);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-icon-skills {
+    font-size: 0.7rem;
+    color: var(--fifth-color);
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-projects {
+    font-size: 1.8rem;
+    color: var(--second-color);
+    display: flex;
+    justify-content: center;
+}
+
+.container-projects {
+    width: 40rem;
+    height: 30rem;
+    margin-bottom: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon-folder {
+    font-size: 6rem;
+    margin: 2rem;
+    color: var(--fifth-color);
+}
+
+.container-projects > .icon-folder:hover {
+    text-shadow: 0 0 0.35rem var(--second-color);
+}
+
+.p-projects {
+    margin-left: 1.5rem;
+}
+
+.h2-services {
+    font-size: 1.8rem;
+    color: var(--second-color);
+    display: flex;
+    justify-content: center;
+}
+
+.container-services {
+    width: 100%;
+    height: 38rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-bitcoin1, .icon-globe, .icon-code {
+    width: 15rem;
+    margin: 3rem;
+    font-size: 7rem;
+    color: var(--fifth-color);
+}
+
+.container-services > .icon-code {
+    margin-bottom: 4.2rem;
+}
+
+.h2-blockchain, .h2-web, .h2-software {
+    font-size: 1.5rem;
+    color: var(--fifth-color);
+    margin: 1rem;
+}
+
+footer {
+    width: 100vw;
+    height: 3.5rem;
+    background-color: var(--fourth-color);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.change-color {
+    position: fixed;
+    bottom: 0.6rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+    
+.icon-eclipse {
+    display: none;
+}
+    
+.icon-sun {
+    background-color: var(--fifth-color);
+    color: var(--second-color);
+    border-radius: 50%;
+    padding: 0.2rem;
+    font-size: 1.3rem;
+    display: block;
+}
+    
+
+.container-button {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.container-socialnetwork {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-up {
+    font-size: 1.3rem;
+    padding: 0.05rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    background-color: var(--fifth-color);
+}
+
+.p-socialnetwork {
+    color: var(--text-color);
+}
+
+footer > .container-socialnetwork > .socialnetwork > a:hover {
+    text-shadow: 0 0 0.4rem var(--fifth-color);
+    color: var(--fifth-color);
+}
+
+footer > .change-color > .icon-sun:hover {
+    background-color: var(--second-color);
+    color: var(--fifth-color);
+    font-size: 1.5rem;
+}
+
+footer > .container-button > .icon-up:hover {
+    background-color: var(--second-color);
+    color: var(--fifth-color);
+    font-size: 1.5rem;
+}
